@@ -20,7 +20,9 @@
     border-radius: 20px;
     margin-left: 1em;
     box-shadow: 15px 15px 3px 3px rgba(35, 34, 34, 0.36);
-    background-color: #dedede;
+    background: linear-gradient(#c5c5c5,white);
+    position: relative;
+    bottom: 3rem;
 }
 .parcours{
     display: inline-block;
@@ -30,7 +32,10 @@
     margin-left: 3em;
     border-radius: 20px;
     box-shadow: 7px 7px 3px 3px rgba(35, 34, 34, 0.36);
-    background-color: #dedede;
+    background: linear-gradient(#c5c5c5,white);
+    position: relative;
+    top: -10px;
+
 
 }
 .compétence{
@@ -39,24 +44,24 @@
     border: 2px solid rgba(0, 0, 0, 0.47);
     margin-left: 47em;
     position: relative;
-    bottom:500px;
+    top:-545px;
     border-radius: 20px;
     box-shadow: -7px 7px 3px 3px rgba(35, 34, 34, 0.36);
-    background-color: #dedede;
+    background: linear-gradient(#c5c5c5,white);
 }
 .hobbies{
     width: 20em;
     height: 500px;
     border: 2px solid rgba(0, 0, 0, 0.47);
     position: relative;
-    bottom: 1000px;
+    top: -1045px;
     left: 70em;
     border-radius: 20px;
     box-shadow: -15px 15px 3px 3px rgba(35, 34, 34, 0.36);
-    background-color: #dedede;
+    background: linear-gradient(#c5c5c5,white);
 }
 .container{
-    max-width: 100%;z
+    max-width: 100%;
 }
 body{
     background-image: url("fond.jpg");
@@ -81,7 +86,82 @@ img{
     width: 86px;
     height: auto;
     position: relative;
-    left: 22em;
+    left: 39em;
     top: 1px;
     border-radius: 15px;
+}
+h2{
+    text-align: center;
+    font-family: "Segoe Print",sans-serif;
+    margin-bottom: 5em;
+}
+.hobbies p{
+    font-family: "Roboto Light", sans-serif;
+    font-size: xx-large;
+    color: black;
+    margin: 1em;
+}
+.parcours p{
+    font-family: "Roboto Light", sans-serif;
+    font-size: xx-large;
+    color: black;
+    margin: 1em;
+}
+.compétence p {
+    font-family: "Roboto Light", sans-serif;
+    font-size: xx-large;
+    color: black;
+    margin: 1em;
+}
+.cursus p {
+    font-family: "Roboto Light", sans-serif;
+    font-size: xx-large;
+    color: black;
+    margin: 1em;
+    position: relative;
+    right: 1em;
+}
+.form h1{
+    color: black;
+   position: relative;
+    left: 1em;
+
+}
+.form{
+    border: 1px solid black;
+    width: 30em;
+    position: relative;
+    bottom: 63em;
+    margin: 0 auto;
+    box-shadow: 3px 2px 3px black;
+    border-radius: 30px;
+}
+.form button{
+   width: 20em;
+    height: 3em;
+   border-radius: 50px;
+    background-color: #6e6c6c;
+    color: white;
+    margin-left: 3em;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 2em;
+    border-color: #ff9a02;
+    box-shadow: 2px 2px 2px black;
+    cursor:pointer ;
+}
+.nom {
+    margin: 1em;
+}
+.prenom{
+    margin: 1em;
+}
+.texte{
+    height: 5em;
+    font-size: large;
+}
+button:hover{
+    border-color: black;
+    opacity: 0.6;
+    color: orange;
 }
